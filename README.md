@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# GitHub User Card App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The GitHub User Card App is a simple web application that allows users to enter a GitHub username. Upon submission, it fetches the public information of the user from GitHub's API and displays it in a beautifully designed card with a user-friendly interface.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Input Form:** Users can input a GitHub username.
+- **GitHub API Integration:** The app utilizes the GitHub API to fetch public user information.
+- **Nicely Designed User Card:** Displays user information in a visually appealing card format.
+- **User Information Displayed:**
+  - Avatar Image (avatar_url)
+  - Username (login)
+  - Name (name)
+  - Number of Public Repositories (public_repos)
+  - Number of Public Gists (public_gists)
+  - Profile Created At (created_at) in YYYY-MM-DD format.
+    
+![image](https://github.com/subramaneshwar/githubprofile/assets/42493880/1d751155-d138-4eb8-b98c-958bf84ae349)
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js:** Used for building the user interface and handling user interactions.
+- **Tailwind CSS:** Utilized for styling the application, creating a modern and responsive design.
+- **GitHub API:** Used to fetch public user information based on the provided username.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+1. Enter a valid GitHub username in the input field.
+2. Click the "Submit" button.
+3. The app will fetch the user's public information and display it in a stylish card format.
+4. You can reset or clear the input field to search for another user.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone this repository.
+2. Navigate to the project directory and run `npm install` to install dependencies.
+3. Run `npm start` to start the development server.
+4. Access the application in your web browser at the provided URL.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Feel free to explore, contribute, and customize the GitHub User Card App to suit your preferences and needs.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
